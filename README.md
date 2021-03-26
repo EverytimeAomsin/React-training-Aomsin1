@@ -1,4 +1,4 @@
-***เพื่อนคนไหนสงสัย ถามเราได้เลยนะ
+***เพื่อนคนไหนสงสัย ถามเราได้เลยนะ<br>
 React คือ Javascipt library ที่สร้างโดย Facebook มีหน้าที่สร้างส่วนแสดงผล โดยอาศัย Js ที่เรียกว่า JSX โดยใช้หลักการแบ่งแยกออกเป็นส่วนๆที่เรียกว่า คอมโพเนนท์ แล้วนำมาประกอบกัน
 
 *****ก่อนใช้งาน React ต้องติดตั้ง Node ก่อนซึ่งสามารถโหลดได้ที่ https://nodejs.org/en/
@@ -33,3 +33,42 @@ return(<br>
  ....แก้ตรงนี้....<br>
  <br>
 )<br>
+<br>
+ลอง save ดู อ่า จุดพิเศษอย่างหนึ่งของคือเมื่อ save แล้วเราไม่ต้องรีหน้าเว็บใหม่เพราะตัว react จะจัดการให้เองครับ<br>
+<br>
+การคอมเม้น react จะเป็น /* */ หรือ {/*  */}<br>
+<br>
+เรื่องต่อมาการเขียน react มีสองแบบคือ แบบ  class component กับ functional component<br>
+ใน ver. หลังๆเราสามารถใช้ functional แทน class ในหลายๆกรณีได้แล้วเช่น จัดการ life cycle<br>
+<br>
+ฟอร์มของการเขียน functional (อ่าก่อนจะเขียนไฟล์ใหม่อย่าลืม import React from 'react' ก่อนนะ<br>
+<br>
+function ชื่อฟังชัน() {<br>
+return(<br>
+<div><br>
+ เขียนตรงนี้<br>
+ </div><br>
+ )<br>
+ }<br>
+export default ชื่อฟังชัน<br>
+<br>
+หรือจะเขียนหัวเป็น<br>
+export default function ชื่อฟังชัน(){<br>
+ถ้าทำแบบนี้เราจะไม่ต้องเขียน export<br>
+<br>
+ฟอร์มของการเขียน class (อ่าก่อนจะเขียนไฟล์ใหม่อย่าลืม import React from 'react' ก่อนนะ จะเป็น<br> 
+<br>
+class ชื่อคลาส extends Component {<br>
+  render() {<br>
+    return (<br>
+     <div> /* เราเขียน div เพราะจะได้เขียนได้หลายบรรทัด */<br>
+ <br>
+    เขียนตรงนี้เลย<br>
+     <br>
+     </div> <br>
+    )<br>
+  }<br>
+}<br>
+export default ชื่อคลาส<br>
+<br>
+จบการสอนไว้ก่อนนะ เจอกันในเรื่อง redux  reactrouter และการเชื่อมกับ firebase<br>
