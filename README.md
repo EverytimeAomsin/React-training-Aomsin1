@@ -41,6 +41,7 @@ return(<br>
 เรื่องต่อมาการเขียน react มีสองแบบคือ แบบ  class component กับ functional component<br>
 ใน ver. หลังๆเราสามารถใช้ functional แทน class ในหลายๆกรณีได้แล้วเช่น จัดการ life cycle<br>
 <br>
+--------------------------------------------------------------------------------<br>
 ฟอร์มของการเขียน functional (อ่าก่อนจะเขียนไฟล์ใหม่อย่าลืม import React from 'react' ก่อนนะ<br>
 <br>
 function ชื่อฟังชัน() {<br>
@@ -56,6 +57,7 @@ export default ชื่อฟังชัน<br>
 export default function ชื่อฟังชัน(){<br>
 ถ้าทำแบบนี้เราจะไม่ต้องเขียน export<br>
 <br>
+---------------------------------------------------------------------------<br>
 ฟอร์มของการเขียน class (อ่าก่อนจะเขียนไฟล์ใหม่อย่าลืม import React from 'react' ก่อนนะ จะเป็น<br> 
 <br>
 class ชื่อคลาส extends Component {<br>
@@ -70,5 +72,6 @@ class ชื่อคลาส extends Component {<br>
   }<br>
 }<br>
 export default ชื่อคลาส<br>
+-------------------------------------------------------------------<br>
 <br>
 จบการสอนไว้ก่อนนะ เจอกันในเรื่อง redux  reactrouter และการเชื่อมกับ firebase<br>
